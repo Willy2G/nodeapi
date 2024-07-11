@@ -13,11 +13,11 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: true,
       },  
-      // isFeatured: {
-      //   type: Sequelize.BOOLEAN,
-      //   defaultValue: false,
-      //   allowNull: false
-      // },
+      isFeatured: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false,
+        allowNull: false
+      },
       productImage: {
         type: Sequelize.ARRAY(Sequelize.STRING),
         allowNull: false
